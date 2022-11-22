@@ -12,9 +12,18 @@ release_artefacts:
 primary_release: full
 import_group:
   products:
+    - id: bfo
+      module_type: mirror
+    - id: omo
+      module_type: mirr
     - id: ro
+      use_base: True
     - id: bfo
     - id: obi
-    - id: omo
     - id: iao
 robot_java_args: '-Xmx8G'
+ci:
+  - github_actions
+documentation:
+  documentation_system: mkdocs
+license: https://creativecommons.org/licenses/by/4.0/
