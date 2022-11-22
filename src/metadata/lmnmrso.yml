@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/lmnmrso
+
+idspace: LMNMRSO
+base_url: /obo/lmnmrso
+
+products:
+- lmnmrso.owl: https://raw.githubusercontent.com/NFDI4Chem/lmnmrso/main/lmnmrso.owl
+- lmnmrso.obo: https://raw.githubusercontent.com/NFDI4Chem/lmnmrso/main/lmnmrso.obo
+
+term_browser: ontobee
+example_terms:
+- LMNMRSO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/NFDI4Chem/lmnmrso/v
+
+- prefix: /tracker/
+  replacement: https://github.com/NFDI4Chem/lmnmrso/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/LMNMRSO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/NFDI4Chem/lmnmrso/main/

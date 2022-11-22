@@ -1,0 +1,20 @@
+id: lmnmrso
+title: "Liquid Molcecular NMR Spectroscopy Ontology"
+github_org: NFDI4Chem
+repo: lmnmrso
+report_fail_on: ERROR
+edit_format: owl
+export_formats:
+  - owl
+release_artefacts: 
+  - base
+  - full
+primary_release: full
+import_group:
+  products:
+    - id: ro
+    - id: bfo
+    - id: obi
+    - id: omo
+    - id: iao
+robot_java_args: '-Xmx8G'
