@@ -1,1 +1,4 @@
-
+http://purl.obolibrary.org/obo/OBI_0000070	# assay
+OBI:0000272		# protocol
+OBI:0500000		# study design
+OBI:0000066		# investigation
